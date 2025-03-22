@@ -1,0 +1,64 @@
+.profile {
+  border: 2px solid black;
+  width: 600px;
+  padding-top: 20px;
+  padding-bottom: 0;
+  font-size: 24px;
+}
+
+.avatar {
+  background-color: rgb(56, 52, 52);
+  border-radius: 50%;
+  width: 300px;
+}
+
+.nameProfile {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.nickName {
+  color: gray;
+}
+
+.locationProfile {
+  color: gray;
+}
+.ulProfile {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(184, 177, 177);
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  list-style: none;
+  margin: 0;
+  height: 140px;
+  border: 2px solid gray;
+}
+
+.liProfile {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  color: black;
+  border-right: 1px solid gray;
+  width: 200px;
+  padding-top: 24px;
+}
+
+.iconFol {
+  margin-left: 82px;
+}
+
+.views {
+  margin-left: 82px;
+}
+
+.red {
+  color: red;
+}
+
+.icon {
+  margin-left: 82px;
+}
