@@ -1,0 +1,20 @@
+.friendList {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.friendItem {
+  border: 2px solid black;
+  width: 160px;
+  padding-top: 10px;
+}
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}

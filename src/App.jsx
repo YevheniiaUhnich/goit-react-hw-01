@@ -1,7 +1,9 @@
 import { useState } from "react";
 import "./App.css";
 import userData from "./userData.json";
+import friends from "./friends.json";
 import Profile from "./components/Profile/Profile";
+import FriendList from "./components/FriendList/FriendList";
 
 const App = () => {
   return (
@@ -15,7 +17,9 @@ const App = () => {
         stats={userData.stats}
       />
 
-      <h2 className="titleTask">Task-1</h2>
+      <h2 className="titleTask">Task-2</h2>
+
+      <FriendList friends={friends} />
     </>
   );
 };
