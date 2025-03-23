@@ -12,7 +12,7 @@ const Profile = ({ userName, tag, location, avatar, stats }) => {
       <p className={s.nickName}>@{tag}</p>
       <p className={s.locationProfile}>{location}</p>
       <ul className={s.ulProfile}>
-        <li className={s.liProfile}>
+        <li className={clsx(s.liProfile, s.liProfileBorder)}>
           <SlUserFollow className={s.iconFol} />
           <span className={s.spanFollowers}>Followers</span> {stats.followers}
         </li>

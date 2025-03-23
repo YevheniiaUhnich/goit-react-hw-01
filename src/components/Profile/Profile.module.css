@@ -49,6 +49,10 @@
   padding-top: 24px;
 }
 
+.liProfileBorder {
+  border-left: 0;
+}
+
 .iconFol {
   margin-left: 82px;
   &:hover {
