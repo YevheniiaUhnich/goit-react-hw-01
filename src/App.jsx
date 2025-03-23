@@ -21,7 +21,7 @@ const App = () => {
 
       <h2 className="titleTask">Task-2</h2>
 
-      <FriendList friends={friends} />
+      <FriendListItem friends={friends} />
 
       <h2 className="titleTask">Task-3</h2>
 

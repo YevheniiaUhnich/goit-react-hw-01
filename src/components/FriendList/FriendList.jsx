@@ -1,7 +1,7 @@
 import s from "./FriendList.module.css";
 import clsx from "clsx";
 
-const FriendList = ({ friends }) => {
+const FriendListItem = ({ friends }) => {
   return (
     <ul className={s.friendList}>
       {friends.map(({ id, avatar, name, isOnline }) => (
@@ -21,4 +21,4 @@ const FriendList = ({ friends }) => {
   );
 };
 
-export default FriendList;
+export default FriendListItem;
