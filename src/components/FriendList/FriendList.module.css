@@ -1,0 +1,18 @@
+.friendsListUl {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.friendListId {
+  border: 5px solid black;
+  border-radius: 20px;
+  width: 300px;
+  padding-top: 20px;
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+}
